@@ -1,0 +1,57 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nombre": "Ordenadores",
+            "img": "assets/img/cat_ordenadores.png"
+        },
+        {
+            "id": 2,
+            "nombre": "Telefonía",
+            "img": "assets/img/cat_telefonia.png"
+        },
+        {
+            "id": 3,
+            "nombre": "Accesorios",
+            "img": "assets/img/cat_accesorios.png"
+        }
+    ],
+    "productos": [
+        {
+            "id": 101,
+            "nombre": "Laptop Pro Gamer",
+            "precio": 1200.50,
+            "descripcion": "Portátil de alto rendimiento para juegos y diseño gráfico.",
+            "img": "assets/img/laptop.png",
+            "id_categoria": 1,
+            "destacado": true
+        },
+        {
+            "id": 102,
+            "nombre": "Smartphone X",
+            "precio": 800.00,
+            "descripcion": "Último modelo con cámara de alta resolución.",
+            "img": "assets/img/movil.png",
+            "id_categoria": 2,
+            "destacado": true
+        },
+        {
+            "id": 103,
+            "nombre": "Auriculares NoiseFree",
+            "precio": 150.00,
+            "descripcion": "Aísla el ruido exterior para una experiencia inmersiva.",
+            "img": "assets/img/auriculares.png",
+            "id_categoria": 3,
+            "destacado": false
+        },
+        {
+            "id": 104,
+            "nombre": "Smartwatch Fit",
+            "precio": 200.00,
+            "descripcion": "Reloj inteligente para monitorear tu salud.",
+            "img": "assets/img/reloj.png",
+            "id_categoria": 3,
+            "destacado": true
+        }
+    ]
+}

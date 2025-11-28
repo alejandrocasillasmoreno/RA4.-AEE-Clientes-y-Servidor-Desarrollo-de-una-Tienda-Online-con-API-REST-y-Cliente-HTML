@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - Tienda Online</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="navbar-brand">
+                    <h2>Mi Tienda Online</h2>
+                </div>
+                <div class="navbar-menu">
+                    <a href="dashboard.html" class="nav-link active">Inicio</a>
+                    <a href="categories.html" class="nav-link">Categorías</a>
+                    <a href="cart.html" class="nav-link">Carrito <span id="cartBadge" class="badge hidden">0</span></a>
+                </div>
+                <div class="navbar-user">
+                    <span id="userName" class="user-name">Usuario</span>
+                    <button id="btnLogout" class="btn btn-secondary btn-sm">Cerrar Sesión</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="section">
+                <h2>Productos Destacados</h2>
+                <div id="productosDestacados" class="grid grid-4" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px;"></div>
+            </section>
+        </div>
+    </main>
+</body>
+<script src="js/store.js"></script>
+<script src="js/dashboard.js"></script>
+
+</html>

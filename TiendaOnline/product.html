@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Producto - Tienda Online</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="navbar-brand">
+                    <h2>Tienda Online</h2>
+                </div>
+                <div class="navbar-menu">
+                    <a href="dashboard.html" class="nav-link">Inicio</a>
+                    <a href="categories.html" class="nav-link">Categorías</a>
+                    <a href="cart.html" class="nav-link">Carrito <span id="cartBadge" class="badge hidden">0</span></a>
+                </div>
+                <div class="navbar-user">
+                    <button id="btnLogout" class="btn btn-secondary btn-sm">Cerrar Sesión</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div id="product-detail" class="product-detail" style="margin-top: 20px;">
+                <p>Cargando producto...</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/product.js"></script>
+    <script src="js/store.js"></script>
+</body>
+
+</html>
